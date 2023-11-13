@@ -1,0 +1,109 @@
+2023-11-13 23:55:04,324 INFO    StreamThr :13616 [internal.py:wandb_internal():86] W&B internal server running at pid: 13616, started at: 2023-11-13 23:55:04.323404
+2023-11-13 23:55:04,326 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status
+2023-11-13 23:55:04,328 INFO    WriterThread:13616 [datastore.py:open_for_write():85] open: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/run-a5riryhf.wandb
+2023-11-13 23:55:04,329 DEBUG   SenderThread:13616 [sender.py:send():379] send: header
+2023-11-13 23:55:04,329 DEBUG   SenderThread:13616 [sender.py:send():379] send: run
+2023-11-13 23:55:04,610 INFO    SenderThread:13616 [dir_watcher.py:__init__():211] watching files in: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files
+2023-11-13 23:55:04,611 INFO    SenderThread:13616 [sender.py:_start_run_threads():1122] run started: a5riryhf with start time 1699919703.396555
+2023-11-13 23:55:04,615 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: summary_record
+2023-11-13 23:55:04,615 INFO    SenderThread:13616 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-11-13 23:55:04,621 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: check_version
+2023-11-13 23:55:04,622 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: check_version
+2023-11-13 23:55:04,653 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: run_start
+2023-11-13 23:55:04,654 DEBUG   HandlerThread:13616 [system_info.py:__init__():31] System info init
+2023-11-13 23:55:04,654 DEBUG   HandlerThread:13616 [system_info.py:__init__():46] System info init done
+2023-11-13 23:55:04,654 INFO    HandlerThread:13616 [system_monitor.py:start():181] Starting system monitor
+2023-11-13 23:55:04,654 INFO    SystemMonitor:13616 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-11-13 23:55:04,655 INFO    HandlerThread:13616 [system_monitor.py:probe():201] Collecting system info
+2023-11-13 23:55:04,657 DEBUG   HandlerThread:13616 [system_info.py:probe():195] Probing system
+2023-11-13 23:55:04,658 DEBUG   HandlerThread:13616 [system_info.py:_probe_git():180] Probing git
+2023-11-13 23:55:04,662 INFO    SystemMonitor:13616 [interfaces.py:start():190] Started cpu monitoring
+2023-11-13 23:55:04,664 INFO    SystemMonitor:13616 [interfaces.py:start():190] Started disk monitoring
+2023-11-13 23:55:04,664 INFO    SystemMonitor:13616 [interfaces.py:start():190] Started gpu monitoring
+2023-11-13 23:55:04,667 INFO    SystemMonitor:13616 [interfaces.py:start():190] Started memory monitoring
+2023-11-13 23:55:04,668 INFO    SystemMonitor:13616 [interfaces.py:start():190] Started network monitoring
+2023-11-13 23:55:04,677 DEBUG   HandlerThread:13616 [system_info.py:_probe_git():188] Probing git done
+2023-11-13 23:55:04,677 DEBUG   HandlerThread:13616 [system_info.py:probe():240] Probing system done
+2023-11-13 23:55:04,677 DEBUG   HandlerThread:13616 [system_monitor.py:probe():210] {'os': 'Linux-5.4.0-163-generic-x86_64-with-glibc2.31', 'python': '3.9.16', 'heartbeatAt': '2023-11-13T23:55:04.657736', 'startedAt': '2023-11-13T23:54:59.914582', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/yashchks87/plant_pathology.git', 'commit': 'da756ff81c46ab06346f08900cfc0a09ff99587d'}, 'email': 'yashchks87@gmail.com', 'root': '/home/paperspace/Documents/plant_pathology', 'host': 'ps2sxr1b9', 'username': 'paperspace', 'executable': '/home/paperspace/Documents/tensor_env/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2600.01, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2600.01, 'min': 0.0, 'max': 0.0}, {'current': 2600.01, 'min': 0.0, 'max': 0.0}, {'current': 2600.01, 'min': 0.0, 'max': 0.0}, {'current': 2600.01, 'min': 0.0, 'max': 0.0}, {'current': 2600.01, 'min': 0.0, 'max': 0.0}, {'current': 2600.01, 'min': 0.0, 'max': 0.0}, {'current': 2600.01, 'min': 0.0, 'max': 0.0}, {'current': 2600.01, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 984.173267364502, 'used': 808.7442512512207}, 'gpu': 'Quadro P4000', 'gpu_count': 1, 'gpu_devices': [{'name': 'Quadro P4000', 'memory_total': 8589934592}], 'memory': {'total': 29.370128631591797}}
+2023-11-13 23:55:04,677 INFO    HandlerThread:13616 [system_monitor.py:probe():211] Finished collecting system info
+2023-11-13 23:55:04,677 INFO    HandlerThread:13616 [system_monitor.py:probe():214] Publishing system info
+2023-11-13 23:55:04,677 DEBUG   HandlerThread:13616 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-11-13 23:55:04,678 DEBUG   HandlerThread:13616 [system_info.py:_save_pip():67] Saving pip packages done
+2023-11-13 23:55:04,678 INFO    HandlerThread:13616 [system_monitor.py:probe():216] Finished publishing system info
+2023-11-13 23:55:04,681 DEBUG   SenderThread:13616 [sender.py:send():379] send: files
+2023-11-13 23:55:04,681 INFO    SenderThread:13616 [sender.py:_save_file():1376] saving file wandb-metadata.json with policy now
+2023-11-13 23:55:04,694 DEBUG   SenderThread:13616 [sender.py:send():379] send: telemetry
+2023-11-13 23:55:04,700 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-13 23:55:04,701 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: stop_status
+2023-11-13 23:55:05,173 INFO    wandb-upload_0:13616 [upload_job.py:push():131] Uploaded file /tmp/tmpwyer6tsbwandb/unydpn74-wandb-metadata.json
+2023-11-13 23:55:05,613 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_created():272] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/wandb-summary.json
+2023-11-13 23:55:05,614 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_created():272] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:05,615 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_created():272] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/wandb-metadata.json
+2023-11-13 23:55:05,615 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_created():272] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/requirements.txt
+2023-11-13 23:55:07,612 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:09,346 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:55:09,613 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:11,614 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:13,615 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:14,499 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:55:14,589 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: partial_history
+2023-11-13 23:55:14,590 DEBUG   SenderThread:13616 [sender.py:send():379] send: history
+2023-11-13 23:55:14,591 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: summary_record
+2023-11-13 23:55:14,591 INFO    SenderThread:13616 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-11-13 23:55:14,616 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/wandb-summary.json
+2023-11-13 23:55:15,616 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:16,617 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:17,617 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:19,530 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:55:19,619 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:19,695 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-13 23:55:19,696 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: stop_status
+2023-11-13 23:55:21,620 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:23,621 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:23,946 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: partial_history
+2023-11-13 23:55:23,949 DEBUG   SenderThread:13616 [sender.py:send():379] send: history
+2023-11-13 23:55:23,949 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: summary_record
+2023-11-13 23:55:23,949 INFO    SenderThread:13616 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-11-13 23:55:24,621 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/wandb-summary.json
+2023-11-13 23:55:24,622 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:25,126 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:55:25,622 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:26,622 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/output.log
+2023-11-13 23:55:30,128 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:55:34,694 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-13 23:55:34,694 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: stop_status
+2023-11-13 23:55:35,818 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:55:36,626 INFO    Thread-49 :13616 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231113_235459-a5riryhf/files/config.yaml
+2023-11-13 23:55:40,934 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:55:45,935 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:55:49,694 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-13 23:55:49,694 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: stop_status
+2023-11-13 23:55:51,868 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:55:56,870 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:01,871 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:04,668 DEBUG   SystemMonitor:13616 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-11-13 23:56:04,669 DEBUG   SenderThread:13616 [sender.py:send():379] send: stats
+2023-11-13 23:56:04,694 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-13 23:56:04,694 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: stop_status
+2023-11-13 23:56:06,871 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:11,872 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:16,873 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:19,694 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-13 23:56:19,695 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: stop_status
+2023-11-13 23:56:22,836 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:27,838 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:32,839 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:34,670 DEBUG   SenderThread:13616 [sender.py:send():379] send: stats
+2023-11-13 23:56:34,694 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-13 23:56:34,695 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: stop_status
+2023-11-13 23:56:37,850 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:42,851 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:47,852 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:49,694 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-13 23:56:49,695 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: stop_status
+2023-11-13 23:56:53,847 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:56:58,848 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:57:03,849 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: status_report
+2023-11-13 23:57:04,671 DEBUG   SenderThread:13616 [sender.py:send():379] send: stats
+2023-11-13 23:57:04,695 DEBUG   HandlerThread:13616 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-13 23:57:04,695 DEBUG   SenderThread:13616 [sender.py:send_request():406] send_request: stop_status
