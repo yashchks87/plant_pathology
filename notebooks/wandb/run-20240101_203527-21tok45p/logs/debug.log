@@ -1,0 +1,61 @@
+2024-01-01 20:35:27,748 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Configure stats pid to 35383
+2024-01-01 20:35:27,748 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/.config/wandb/settings
+2024-01-01 20:35:27,748 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/Documents/plant_pathology/notebooks/wandb/settings
+2024-01-01 20:35:27,748 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-01-01 20:35:27,748 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-01 20:35:27,748 INFO    MainThread:35383 [wandb_init.py:_log_setup():476] Logging user logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240101_203527-21tok45p/logs/debug.log
+2024-01-01 20:35:27,748 INFO    MainThread:35383 [wandb_init.py:_log_setup():477] Logging internal logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240101_203527-21tok45p/logs/debug-internal.log
+2024-01-01 20:35:27,748 INFO    MainThread:35383 [wandb_init.py:init():516] calling init triggers
+2024-01-01 20:35:27,748 INFO    MainThread:35383 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'model_name': 'res32', 'dataset_name': 'plant_pathology', 'epochs': 50, 'batch_size': 512, 'learning_rate': 0.001, 'optimizer': 'Adam', 'weights_path': '../../weights/res32_horizontal_flip_random_brightness_contrast_class_weight/', 'horizontal_flip': True, 'random_rotation': True, 'normalize': True, 'color_jitter': True, 'class_weights': [True, array([ 0.96675138,  0.48881037,  9.63080169,  0.33613136,  1.31065174,
+       18.11507937,  0.83242159, 16.01754386, 13.23188406,  0.32089133,
+        2.27114428,  7.88428325])]}
+2024-01-01 20:35:27,749 INFO    MainThread:35383 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 10u4n1kj
+2024-01-01 20:35:27,750 INFO    MainThread:35383 [wandb_run.py:_finish():1746] finishing run yashchks87/plant_pathology/10u4n1kj
+2024-01-01 20:35:27,750 INFO    MainThread:35383 [jupyter.py:save_history():448] not saving jupyter history
+2024-01-01 20:35:27,750 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 20:35:27,750 INFO    MainThread:35383 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2024-01-01 20:35:27,750 INFO    MainThread:35383 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2024-01-01 20:35:27,751 INFO    MainThread:35383 [wandb_run.py:_restore():1932] restore
+2024-01-01 20:35:27,751 INFO    MainThread:35383 [wandb_run.py:_restore():1938] restore done
+2024-01-01 20:35:32,062 INFO    MainThread:35383 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2024-01-01 20:35:32,064 INFO    MainThread:35383 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2024-01-01 20:35:32,067 INFO    MainThread:35383 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2024-01-01 20:35:32,070 INFO    MainThread:35383 [wandb_init.py:init():569] starting backend
+2024-01-01 20:35:32,070 INFO    MainThread:35383 [wandb_init.py:init():573] setting up manager
+2024-01-01 20:35:32,072 INFO    MainThread:35383 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-01-01 20:35:32,072 INFO    MainThread:35383 [wandb_init.py:init():580] backend started and connected
+2024-01-01 20:35:32,078 INFO    MainThread:35383 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2024-01-01 20:35:32,078 INFO    MainThread:35383 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-01-01 20:35:32,078 INFO    MainThread:35383 [wandb_init.py:init():658] updated telemetry
+2024-01-01 20:35:32,155 INFO    MainThread:35383 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2024-01-01 20:35:33,259 INFO    MainThread:35383 [wandb_run.py:_on_init():2000] communicating current version
+2024-01-01 20:35:33,303 INFO    MainThread:35383 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.16.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-01-01 20:35:33,303 INFO    MainThread:35383 [wandb_init.py:init():728] starting run threads in backend
+2024-01-01 20:35:33,334 INFO    MainThread:35383 [wandb_run.py:_console_start():1980] atexit reg
+2024-01-01 20:35:33,334 INFO    MainThread:35383 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2024-01-01 20:35:33,334 INFO    MainThread:35383 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2024-01-01 20:35:33,334 INFO    MainThread:35383 [wandb_run.py:_redirect():1925] Redirects installed.
+2024-01-01 20:35:33,470 INFO    MainThread:35383 [wandb_init.py:init():765] run started, returning control to user process
+2024-01-01 20:36:02,056 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Configure stats pid to 35383
+2024-01-01 20:36:02,056 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/.config/wandb/settings
+2024-01-01 20:36:02,056 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/Documents/plant_pathology/notebooks/wandb/settings
+2024-01-01 20:36:02,056 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-01-01 20:36:02,056 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-01 20:36:02,056 INFO    MainThread:35383 [wandb_init.py:_log_setup():476] Logging user logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240101_203602-dj1spw0r/logs/debug.log
+2024-01-01 20:36:02,057 INFO    MainThread:35383 [wandb_init.py:_log_setup():477] Logging internal logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240101_203602-dj1spw0r/logs/debug-internal.log
+2024-01-01 20:36:02,057 INFO    MainThread:35383 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fa1a78595b0>
+2024-01-01 20:36:02,057 INFO    MainThread:35383 [wandb_init.py:init():516] calling init triggers
+2024-01-01 20:36:02,057 INFO    MainThread:35383 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'model_name': 'res32', 'dataset_name': 'plant_pathology', 'epochs': 50, 'batch_size': 512, 'learning_rate': 0.001, 'optimizer': 'Adam', 'weights_path': '../../weights/res32_horizontal_flip_random_brightness_contrast_class_weight/', 'horizontal_flip': True, 'random_rotation': True, 'normalize': True, 'color_jitter': True, 'class_weights': [True, array([ 0.96675138,  0.48881037,  9.63080169,  0.33613136,  1.31065174,
+       18.11507937,  0.83242159, 16.01754386, 13.23188406,  0.32089133,
+        2.27114428,  7.88428325])]}
+2024-01-01 20:36:02,058 INFO    MainThread:35383 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 21tok45p
+2024-01-01 20:36:02,059 INFO    MainThread:35383 [wandb_run.py:_finish():1746] finishing run yashchks87/plant_pathology/21tok45p
+2024-01-01 20:36:02,059 INFO    MainThread:35383 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2024-01-01 20:36:02,059 INFO    MainThread:35383 [wandb_run.py:_restore():1932] restore
+2024-01-01 20:36:02,059 INFO    MainThread:35383 [wandb_run.py:_restore():1938] restore done
+2024-01-01 20:36:05,953 INFO    MainThread:35383 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2024-01-01 20:36:05,953 INFO    MainThread:35383 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2024-01-01 20:36:05,955 INFO    MainThread:35383 [wandb_run.py:_footer_sync_info():3333] logging synced files

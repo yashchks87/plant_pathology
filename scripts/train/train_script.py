@@ -10,6 +10,7 @@ from metrics.metrics import generate_metrics
 import wandb
 import itertools
 from train.save_model import save_model
+from torch.optim.lr_scheduler import StepLR
 
 # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 multiple_gpus = False
@@ -18,7 +19,11 @@ multiple_gpus = False
     #     multiple_gpus = True
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-def train(model, train_loader, val_loader, epochs=10, wandb_dict=None, load_model = None, save_path='../../weights/res32/'):
+# def lambda_lr(epoch, train_loss, val_loss):
+#     if abs(train_loss - val_loss) > 0.2:
+#         return 
+
+def train(model, train_loader, val_loader, epochs=10, wandb_dict=None, class_weights = None, load_model = None, save_path='../../weights/res32/'):
     if wandb_dict == None:
         wandb.init(project='plant_pathology')
     else:
@@ -33,6 +38,7 @@ def train(model, train_loader, val_loader, epochs=10, wandb_dict=None, load_mode
         model = nn.DataParallel(model)
     model = model.to(device)
     optimizer = optim.Adam(model.parameters(), lr=0.001)
+    # scheduler = StepLR(optimizer, step_size=4, gamma=0.1)
     for epoch in range(epochs):
         train_loss, val_loss = 0.0, 0.0
         train_prec, val_prec = torch.zeros(1, 12), torch.zeros(1, 12)
@@ -50,7 +56,10 @@ def train(model, train_loader, val_loader, epochs=10, wandb_dict=None, load_mode
                     optimizer.zero_grad()
                     with torch.set_grad_enabled(phase == 'train'):
                         outputs = model(img)
-                        loss = loss_fn(outputs, label)
+                        if phase == 'train':
+                            loss = loss_fn(outputs, label, class_weights= class_weights)
+                        else:
+                            loss = loss_fn(outputs, label)
                         c_m, p, r = generate_metrics(outputs, label, 12)
                         if phase == 'train':
                             loss.backward()
@@ -73,6 +82,8 @@ def train(model, train_loader, val_loader, epochs=10, wandb_dict=None, load_mode
                 val_prec = val_prec / len(val_loader)
                 val_rec = val_rec / len(val_loader)
                 print(f'val loss: {val_loss}')
+        # scheduler.step()
+        # print(f'Learning rate for epoch {epoch} is {optimizer.state_dict()["param_groups"][0]["lr"]}')
         keys = ['train_loss', 'val_loss']
         ids = itertools.chain.from_iterable([[f'train_prec_{x}' for x in range(12)],
         [f'val_prec_{x}' for x in range(12)],

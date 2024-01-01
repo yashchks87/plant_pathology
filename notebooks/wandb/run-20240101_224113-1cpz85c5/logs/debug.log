@@ -1,0 +1,40 @@
+2024-01-01 22:41:13,166 INFO    MainThread:214555 [wandb_setup.py:_flush():68] Configure stats pid to 214555
+2024-01-01 22:41:13,166 INFO    MainThread:214555 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/.config/wandb/settings
+2024-01-01 22:41:13,166 INFO    MainThread:214555 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/Documents/plant_pathology/notebooks/wandb/settings
+2024-01-01 22:41:13,166 INFO    MainThread:214555 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-01-01 22:41:13,166 INFO    MainThread:214555 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-01 22:41:13,167 INFO    MainThread:214555 [wandb_init.py:_log_setup():476] Logging user logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240101_224113-1cpz85c5/logs/debug.log
+2024-01-01 22:41:13,167 INFO    MainThread:214555 [wandb_init.py:_log_setup():477] Logging internal logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240101_224113-1cpz85c5/logs/debug-internal.log
+2024-01-01 22:41:13,167 INFO    MainThread:214555 [wandb_init.py:init():516] calling init triggers
+2024-01-01 22:41:13,167 INFO    MainThread:214555 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'model_name': 'res32', 'dataset_name': 'plant_pathology', 'epochs': 50, 'batch_size': 512, 'learning_rate': 0.001, 'optimizer': 'Adam', 'weights_path': '../../weights/res32_horizontal_flip_random_brightness_contrast_smoothing_class_weight_lrschedule_v1/', 'horizontal_flip': True, 'random_rotation': True, 'normalize': True, 'color_jitter': True, 'class_weights': [True, array([ 0.96675138,  0.48881037,  9.63080169,  0.33613136,  1.31065174,
+       18.11507937,  0.83242159, 16.01754386, 13.23188406,  0.32089133,
+        2.27114428,  7.88428325])], 'StepLR': True}
+2024-01-01 22:41:13,167 INFO    MainThread:214555 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 1y2dn200
+2024-01-01 22:41:13,168 INFO    MainThread:214555 [wandb_run.py:_finish():1746] finishing run yashchks87/plant_pathology/1y2dn200
+2024-01-01 22:41:13,168 INFO    MainThread:214555 [jupyter.py:save_history():448] not saving jupyter history
+2024-01-01 22:41:13,169 INFO    MainThread:214555 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:41:13,169 INFO    MainThread:214555 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2024-01-01 22:41:13,169 INFO    MainThread:214555 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2024-01-01 22:41:13,169 INFO    MainThread:214555 [wandb_run.py:_restore():1932] restore
+2024-01-01 22:41:13,169 INFO    MainThread:214555 [wandb_run.py:_restore():1938] restore done
+2024-01-01 22:41:19,576 INFO    MainThread:214555 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2024-01-01 22:41:19,577 INFO    MainThread:214555 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2024-01-01 22:41:19,578 INFO    MainThread:214555 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2024-01-01 22:41:19,581 INFO    MainThread:214555 [wandb_init.py:init():569] starting backend
+2024-01-01 22:41:19,582 INFO    MainThread:214555 [wandb_init.py:init():573] setting up manager
+2024-01-01 22:41:19,583 INFO    MainThread:214555 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-01-01 22:41:19,583 INFO    MainThread:214555 [wandb_init.py:init():580] backend started and connected
+2024-01-01 22:41:19,588 INFO    MainThread:214555 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2024-01-01 22:41:19,588 INFO    MainThread:214555 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-01-01 22:41:19,588 INFO    MainThread:214555 [wandb_init.py:init():658] updated telemetry
+2024-01-01 22:41:19,672 INFO    MainThread:214555 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2024-01-01 22:41:20,770 INFO    MainThread:214555 [wandb_run.py:_on_init():2000] communicating current version
+2024-01-01 22:41:20,815 INFO    MainThread:214555 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.16.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-01-01 22:41:20,815 INFO    MainThread:214555 [wandb_init.py:init():728] starting run threads in backend
+2024-01-01 22:41:20,842 INFO    MainThread:214555 [wandb_run.py:_console_start():1980] atexit reg
+2024-01-01 22:41:20,842 INFO    MainThread:214555 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2024-01-01 22:41:20,842 INFO    MainThread:214555 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2024-01-01 22:41:20,842 INFO    MainThread:214555 [wandb_run.py:_redirect():1925] Redirects installed.
+2024-01-01 22:41:20,843 INFO    MainThread:214555 [wandb_init.py:init():765] run started, returning control to user process

@@ -1,0 +1,88 @@
+2024-01-01 21:55:09,982 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Configure stats pid to 35383
+2024-01-01 21:55:09,982 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/.config/wandb/settings
+2024-01-01 21:55:09,983 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/Documents/plant_pathology/notebooks/wandb/settings
+2024-01-01 21:55:09,983 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-01-01 21:55:09,983 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-01 21:55:09,983 INFO    MainThread:35383 [wandb_init.py:_log_setup():476] Logging user logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240101_215509-3gdre1w0/logs/debug.log
+2024-01-01 21:55:09,983 INFO    MainThread:35383 [wandb_init.py:_log_setup():477] Logging internal logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240101_215509-3gdre1w0/logs/debug-internal.log
+2024-01-01 21:55:09,984 INFO    MainThread:35383 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fa1a7983cd0>
+2024-01-01 21:55:09,984 INFO    MainThread:35383 [wandb_init.py:init():516] calling init triggers
+2024-01-01 21:55:09,985 INFO    MainThread:35383 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'model_name': 'res32', 'dataset_name': 'plant_pathology', 'epochs': 50, 'batch_size': 512, 'learning_rate': 0.001, 'optimizer': 'Adam', 'weights_path': '../../weights/res32_horizontal_flip_random_brightness_contrast_smoothing_class_weight_v3/', 'horizontal_flip': True, 'random_rotation': True, 'normalize': True, 'color_jitter': True, 'class_weights': [True, array([ 0.96675138,  0.48881037,  9.63080169,  0.33613136,  1.31065174,
+       18.11507937,  0.83242159, 16.01754386, 13.23188406,  0.32089133,
+        2.27114428,  7.88428325])]}
+2024-01-01 21:55:09,985 INFO    MainThread:35383 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 2oy1usw8
+2024-01-01 21:55:09,986 INFO    MainThread:35383 [wandb_run.py:_finish():1746] finishing run yashchks87/plant_pathology/2oy1usw8
+2024-01-01 21:55:09,987 INFO    MainThread:35383 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2024-01-01 21:55:09,987 INFO    MainThread:35383 [wandb_run.py:_restore():1932] restore
+2024-01-01 21:55:09,988 INFO    MainThread:35383 [wandb_run.py:_restore():1938] restore done
+2024-01-01 21:55:14,440 INFO    MainThread:35383 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2024-01-01 21:55:14,443 INFO    MainThread:35383 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2024-01-01 21:55:14,446 INFO    MainThread:35383 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2024-01-01 21:55:14,448 INFO    MainThread:35383 [wandb_init.py:init():569] starting backend
+2024-01-01 21:55:14,448 INFO    MainThread:35383 [wandb_init.py:init():573] setting up manager
+2024-01-01 21:55:14,450 INFO    MainThread:35383 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-01-01 21:55:14,451 INFO    MainThread:35383 [wandb_init.py:init():580] backend started and connected
+2024-01-01 21:55:14,454 INFO    MainThread:35383 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2024-01-01 21:55:14,455 INFO    MainThread:35383 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-01-01 21:55:14,455 INFO    MainThread:35383 [wandb_init.py:init():658] updated telemetry
+2024-01-01 21:55:14,535 INFO    MainThread:35383 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2024-01-01 21:55:15,636 INFO    MainThread:35383 [wandb_run.py:_on_init():2000] communicating current version
+2024-01-01 21:55:15,678 INFO    MainThread:35383 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.16.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-01-01 21:55:15,678 INFO    MainThread:35383 [wandb_init.py:init():728] starting run threads in backend
+2024-01-01 21:55:15,711 INFO    MainThread:35383 [wandb_run.py:_console_start():1980] atexit reg
+2024-01-01 21:55:15,711 INFO    MainThread:35383 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2024-01-01 21:55:15,711 INFO    MainThread:35383 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2024-01-01 21:55:15,711 INFO    MainThread:35383 [wandb_run.py:_redirect():1925] Redirects installed.
+2024-01-01 21:55:15,712 INFO    MainThread:35383 [wandb_init.py:init():765] run started, returning control to user process
+2024-01-01 22:14:31,260 INFO    MainThread:35383 [wandb_init.py:_pause_backend():389] pausing backend
+2024-01-01 22:14:31,261 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:24:59,149 INFO    MainThread:35383 [wandb_init.py:_resume_backend():398] resuming backend
+2024-01-01 22:24:59,158 INFO    MainThread:35383 [wandb_init.py:_pause_backend():389] pausing backend
+2024-01-01 22:24:59,158 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:25:12,581 INFO    MainThread:35383 [wandb_init.py:_resume_backend():398] resuming backend
+2024-01-01 22:25:12,582 INFO    MainThread:35383 [wandb_init.py:_pause_backend():389] pausing backend
+2024-01-01 22:25:12,582 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:25:18,021 INFO    MainThread:35383 [wandb_init.py:_resume_backend():398] resuming backend
+2024-01-01 22:25:18,029 INFO    MainThread:35383 [wandb_init.py:_pause_backend():389] pausing backend
+2024-01-01 22:25:18,029 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:25:21,602 INFO    MainThread:35383 [wandb_init.py:_resume_backend():398] resuming backend
+2024-01-01 22:25:21,605 INFO    MainThread:35383 [wandb_init.py:_pause_backend():389] pausing backend
+2024-01-01 22:25:21,605 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:30:42,346 INFO    MainThread:35383 [wandb_init.py:_resume_backend():398] resuming backend
+2024-01-01 22:30:42,581 INFO    MainThread:35383 [wandb_init.py:_pause_backend():389] pausing backend
+2024-01-01 22:30:42,581 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:30:42,796 INFO    MainThread:35383 [wandb_init.py:_resume_backend():398] resuming backend
+2024-01-01 22:30:42,812 INFO    MainThread:35383 [wandb_init.py:_pause_backend():389] pausing backend
+2024-01-01 22:30:42,813 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:30:43,282 INFO    MainThread:35383 [wandb_init.py:_resume_backend():398] resuming backend
+2024-01-01 22:30:43,286 INFO    MainThread:35383 [wandb_init.py:_pause_backend():389] pausing backend
+2024-01-01 22:30:43,286 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:30:43,737 INFO    MainThread:35383 [wandb_init.py:_resume_backend():398] resuming backend
+2024-01-01 22:30:43,738 INFO    MainThread:35383 [wandb_init.py:_pause_backend():389] pausing backend
+2024-01-01 22:30:43,738 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:31:02,317 INFO    MainThread:35383 [wandb_init.py:_resume_backend():398] resuming backend
+2024-01-01 22:31:02,318 INFO    MainThread:35383 [wandb_init.py:_pause_backend():389] pausing backend
+2024-01-01 22:31:02,318 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:31:32,841 INFO    MainThread:35383 [wandb_init.py:_resume_backend():398] resuming backend
+2024-01-01 22:31:32,988 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Configure stats pid to 35383
+2024-01-01 22:31:32,988 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/.config/wandb/settings
+2024-01-01 22:31:32,988 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/Documents/plant_pathology/notebooks/wandb/settings
+2024-01-01 22:31:32,988 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-01-01 22:31:32,988 INFO    MainThread:35383 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-01 22:31:32,988 INFO    MainThread:35383 [wandb_init.py:_log_setup():476] Logging user logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240101_223132-y0wuiw8l/logs/debug.log
+2024-01-01 22:31:32,988 INFO    MainThread:35383 [wandb_init.py:_log_setup():477] Logging internal logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240101_223132-y0wuiw8l/logs/debug-internal.log
+2024-01-01 22:31:32,988 INFO    MainThread:35383 [wandb_init.py:init():516] calling init triggers
+2024-01-01 22:31:32,989 INFO    MainThread:35383 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'model_name': 'res32', 'dataset_name': 'plant_pathology', 'epochs': 50, 'batch_size': 512, 'learning_rate': 0.001, 'optimizer': 'Adam', 'weights_path': '../../weights/res32_horizontal_flip_random_brightness_contrast_smoothing_class_weight_lrschedule_v1/', 'horizontal_flip': True, 'random_rotation': True, 'normalize': True, 'color_jitter': True, 'class_weights': [True, array([ 0.96675138,  0.48881037,  9.63080169,  0.33613136,  1.31065174,
+       18.11507937,  0.83242159, 16.01754386, 13.23188406,  0.32089133,
+        2.27114428,  7.88428325])], 'StepLR': True}
+2024-01-01 22:31:32,989 INFO    MainThread:35383 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 3gdre1w0
+2024-01-01 22:31:32,990 INFO    MainThread:35383 [wandb_run.py:_finish():1746] finishing run yashchks87/plant_pathology/3gdre1w0
+2024-01-01 22:31:32,990 INFO    MainThread:35383 [jupyter.py:save_history():448] not saving jupyter history
+2024-01-01 22:31:32,990 INFO    MainThread:35383 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2024-01-01 22:31:32,990 INFO    MainThread:35383 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2024-01-01 22:31:32,990 INFO    MainThread:35383 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2024-01-01 22:31:32,991 INFO    MainThread:35383 [wandb_run.py:_restore():1932] restore
+2024-01-01 22:31:32,991 INFO    MainThread:35383 [wandb_run.py:_restore():1938] restore done

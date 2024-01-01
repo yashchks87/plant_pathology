@@ -4,6 +4,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 import multiprocessing as mp
 import torch, torchvision
+from sklearn.utils.class_weight import compute_class_weight
+import numpy as np
 
 
 def split_datasets(df, test_size):
@@ -18,6 +20,11 @@ def check_img(img_path):
         return True
     except:
         return img_path
+
+def get_class_weight(labels):
+    if ~isinstance(labels, np.ndarray):
+        labels = np.array(labels)
+    return compute_class_weight(class_weight='balanced', classes=np.unique(labels), y=labels)
 
 class ReadCSV():
     def __init__(self, csv_path, img_paths):
