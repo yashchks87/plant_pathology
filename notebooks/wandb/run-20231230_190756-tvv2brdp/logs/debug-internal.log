@@ -1,0 +1,47 @@
+2023-12-30 19:07:56,419 INFO    StreamThr :3272 [internal.py:wandb_internal():88] W&B internal server running at pid: 3272, started at: 2023-12-30 19:07:56.418534
+2023-12-30 19:07:56,424 DEBUG   HandlerThread:3272 [handler.py:handle_request():138] handle_request: status
+2023-12-30 19:07:56,425 DEBUG   SenderThread:3272 [sender.py:send_request():317] send_request: status
+2023-12-30 19:07:56,427 DEBUG   SenderThread:3272 [sender.py:send():303] send: header
+2023-12-30 19:07:56,427 INFO    WriterThread:3272 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231230_190756-tvv2brdp/run-tvv2brdp.wandb
+2023-12-30 19:07:56,451 DEBUG   SenderThread:3272 [sender.py:send():303] send: run
+2023-12-30 19:07:56,744 DEBUG   HandlerThread:3272 [handler.py:handle_request():138] handle_request: check_version
+2023-12-30 19:07:56,749 INFO    SenderThread:3272 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231230_190756-tvv2brdp/files
+2023-12-30 19:07:56,750 INFO    SenderThread:3272 [sender.py:_start_run_threads():928] run started: tvv2brdp with start time 1703963276.414516
+2023-12-30 19:07:56,750 DEBUG   SenderThread:3272 [sender.py:send():303] send: summary
+2023-12-30 19:07:56,750 INFO    SenderThread:3272 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-30 19:07:56,750 DEBUG   SenderThread:3272 [sender.py:send_request():317] send_request: check_version
+2023-12-30 19:07:56,829 DEBUG   HandlerThread:3272 [handler.py:handle_request():138] handle_request: run_start
+2023-12-30 19:07:56,836 DEBUG   HandlerThread:3272 [meta.py:__init__():34] meta init
+2023-12-30 19:07:56,836 DEBUG   HandlerThread:3272 [meta.py:__init__():49] meta init done
+2023-12-30 19:07:56,836 DEBUG   HandlerThread:3272 [meta.py:probe():215] probe
+2023-12-30 19:07:56,848 DEBUG   HandlerThread:3272 [meta.py:_setup_git():205] setup git
+2023-12-30 19:07:56,860 DEBUG   HandlerThread:3272 [meta.py:_setup_git():212] setup git done
+2023-12-30 19:07:56,860 DEBUG   HandlerThread:3272 [meta.py:_save_pip():53] save pip
+2023-12-30 19:07:56,861 DEBUG   HandlerThread:3272 [meta.py:_save_pip():67] save pip done
+2023-12-30 19:07:56,861 DEBUG   HandlerThread:3272 [meta.py:probe():253] probe done
+2023-12-30 19:07:57,200 DEBUG   SenderThread:3272 [sender.py:send():303] send: files
+2023-12-30 19:07:57,201 INFO    SenderThread:3272 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-12-30 19:07:57,213 DEBUG   HandlerThread:3272 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-30 19:07:57,214 DEBUG   SenderThread:3272 [sender.py:send_request():317] send_request: stop_status
+2023-12-30 19:07:57,342 DEBUG   SenderThread:3272 [sender.py:send():303] send: telemetry
+2023-12-30 19:07:57,537 INFO    Thread-17 :3272 [upload_job.py:push():143] Uploaded file /tmp/tmpkofs3hwowandb/1ppu38bw-wandb-metadata.json
+2023-12-30 19:07:57,751 INFO    Thread-13 :3272 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231230_190756-tvv2brdp/files/requirements.txt
+2023-12-30 19:07:57,752 INFO    Thread-13 :3272 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231230_190756-tvv2brdp/files/wandb-metadata.json
+2023-12-30 19:07:57,752 INFO    Thread-13 :3272 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231230_190756-tvv2brdp/files/wandb-summary.json
+2023-12-30 19:07:59,751 INFO    Thread-13 :3272 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231230_190756-tvv2brdp/files/output.log
+2023-12-30 19:08:01,752 INFO    Thread-13 :3272 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231230_190756-tvv2brdp/files/output.log
+2023-12-30 19:08:10,184 DEBUG   HandlerThread:3272 [handler.py:handle_request():138] handle_request: pause
+2023-12-30 19:08:10,185 INFO    HandlerThread:3272 [handler.py:handle_request_pause():696] stopping system metrics thread
+2023-12-30 19:08:10,285 DEBUG   SenderThread:3272 [sender.py:send():303] send: stats
+2023-12-30 19:08:11,755 INFO    Thread-13 :3272 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231230_190756-tvv2brdp/files/output.log
+2023-12-30 19:08:12,345 DEBUG   HandlerThread:3272 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-30 19:08:12,345 DEBUG   SenderThread:3272 [sender.py:send_request():317] send_request: stop_status
+2023-12-30 19:08:26,761 INFO    Thread-13 :3272 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231230_190756-tvv2brdp/files/config.yaml
+2023-12-30 19:08:27,444 DEBUG   HandlerThread:3272 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-30 19:08:27,444 DEBUG   SenderThread:3272 [sender.py:send_request():317] send_request: stop_status
+2023-12-30 19:08:42,523 DEBUG   HandlerThread:3272 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-30 19:08:42,524 DEBUG   SenderThread:3272 [sender.py:send_request():317] send_request: stop_status
+2023-12-30 19:08:57,660 DEBUG   HandlerThread:3272 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-30 19:08:57,660 DEBUG   SenderThread:3272 [sender.py:send_request():317] send_request: stop_status
+2023-12-30 19:09:12,823 DEBUG   HandlerThread:3272 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-30 19:09:12,823 DEBUG   SenderThread:3272 [sender.py:send_request():317] send_request: stop_status

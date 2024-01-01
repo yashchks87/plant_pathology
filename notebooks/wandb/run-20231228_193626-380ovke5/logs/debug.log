@@ -1,0 +1,63 @@
+2023-12-28 19:36:26,509 INFO    MainThread:6241 [wandb_setup.py:_flush():68] Configure stats pid to 6241
+2023-12-28 19:36:26,510 INFO    MainThread:6241 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/.config/wandb/settings
+2023-12-28 19:36:26,510 INFO    MainThread:6241 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/Documents/plant_pathology/notebooks/wandb/settings
+2023-12-28 19:36:26,510 INFO    MainThread:6241 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-12-28 19:36:26,510 INFO    MainThread:6241 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-28 19:36:26,510 INFO    MainThread:6241 [wandb_init.py:_log_setup():476] Logging user logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231228_193626-380ovke5/logs/debug.log
+2023-12-28 19:36:26,510 INFO    MainThread:6241 [wandb_init.py:_log_setup():477] Logging internal logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231228_193626-380ovke5/logs/debug-internal.log
+2023-12-28 19:36:26,510 INFO    MainThread:6241 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f7002edcf10>
+2023-12-28 19:36:26,510 INFO    MainThread:6241 [wandb_init.py:init():516] calling init triggers
+2023-12-28 19:36:26,510 INFO    MainThread:6241 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-12-28 19:36:26,510 INFO    MainThread:6241 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 3ktbw315
+2023-12-28 19:36:26,512 INFO    MainThread:6241 [wandb_run.py:_finish():1746] finishing run yashchks87/plant_pathology/3ktbw315
+2023-12-28 19:36:26,512 INFO    MainThread:6241 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-12-28 19:36:26,513 INFO    MainThread:6241 [wandb_run.py:_restore():1932] restore
+2023-12-28 19:36:26,513 INFO    MainThread:6241 [wandb_run.py:_restore():1938] restore done
+2023-12-28 19:36:30,842 INFO    MainThread:6241 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-12-28 19:36:30,842 INFO    MainThread:6241 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-12-28 19:36:30,844 INFO    MainThread:6241 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-12-28 19:36:30,849 INFO    MainThread:6241 [wandb_init.py:init():569] starting backend
+2023-12-28 19:36:30,849 INFO    MainThread:6241 [wandb_init.py:init():573] setting up manager
+2023-12-28 19:36:30,851 INFO    MainThread:6241 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-28 19:36:30,852 INFO    MainThread:6241 [wandb_init.py:init():580] backend started and connected
+2023-12-28 19:36:30,857 INFO    MainThread:6241 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-12-28 19:36:30,857 INFO    MainThread:6241 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-28 19:36:30,857 INFO    MainThread:6241 [wandb_init.py:init():658] updated telemetry
+2023-12-28 19:36:30,956 INFO    MainThread:6241 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-12-28 19:36:32,059 INFO    MainThread:6241 [wandb_run.py:_on_init():2000] communicating current version
+2023-12-28 19:36:32,110 INFO    MainThread:6241 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.16.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-12-28 19:36:32,110 INFO    MainThread:6241 [wandb_init.py:init():728] starting run threads in backend
+2023-12-28 19:36:32,153 INFO    MainThread:6241 [wandb_run.py:_console_start():1980] atexit reg
+2023-12-28 19:36:32,154 INFO    MainThread:6241 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-12-28 19:36:32,155 INFO    MainThread:6241 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-12-28 19:36:32,155 INFO    MainThread:6241 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-12-28 19:36:32,156 INFO    MainThread:6241 [wandb_init.py:init():765] run started, returning control to user process
+2023-12-28 19:45:08,193 INFO    MainThread:6241 [wandb_init.py:_pause_backend():389] pausing backend
+2023-12-28 19:45:08,194 INFO    MainThread:6241 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-12-28 19:57:42,426 INFO    MainThread:6241 [wandb_init.py:_resume_backend():398] resuming backend
+2023-12-28 19:57:42,427 INFO    MainThread:6241 [wandb_init.py:_pause_backend():389] pausing backend
+2023-12-28 19:57:42,428 INFO    MainThread:6241 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-12-28 19:57:52,179 INFO    MainThread:6241 [wandb_init.py:_resume_backend():398] resuming backend
+2023-12-28 19:57:52,322 INFO    MainThread:6241 [wandb_setup.py:_flush():68] Configure stats pid to 6241
+2023-12-28 19:57:52,322 INFO    MainThread:6241 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/.config/wandb/settings
+2023-12-28 19:57:52,322 INFO    MainThread:6241 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/Documents/plant_pathology/notebooks/wandb/settings
+2023-12-28 19:57:52,322 INFO    MainThread:6241 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-12-28 19:57:52,322 INFO    MainThread:6241 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-28 19:57:52,322 INFO    MainThread:6241 [wandb_init.py:_log_setup():476] Logging user logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231228_195752-d2piio0f/logs/debug.log
+2023-12-28 19:57:52,322 INFO    MainThread:6241 [wandb_init.py:_log_setup():477] Logging internal logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231228_195752-d2piio0f/logs/debug-internal.log
+2023-12-28 19:57:52,323 INFO    MainThread:6241 [wandb_init.py:init():516] calling init triggers
+2023-12-28 19:57:52,323 INFO    MainThread:6241 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-12-28 19:57:52,323 INFO    MainThread:6241 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 380ovke5
+2023-12-28 19:57:52,325 INFO    MainThread:6241 [wandb_run.py:_finish():1746] finishing run yashchks87/plant_pathology/380ovke5
+2023-12-28 19:57:52,325 INFO    MainThread:6241 [jupyter.py:save_history():448] not saving jupyter history
+2023-12-28 19:57:52,325 INFO    MainThread:6241 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-12-28 19:57:52,325 INFO    MainThread:6241 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-12-28 19:57:52,325 INFO    MainThread:6241 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-12-28 19:57:52,325 INFO    MainThread:6241 [wandb_run.py:_restore():1932] restore
+2023-12-28 19:57:52,325 INFO    MainThread:6241 [wandb_run.py:_restore():1938] restore done
+2023-12-28 19:57:58,436 INFO    MainThread:6241 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-12-28 19:57:58,439 INFO    MainThread:6241 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-12-28 19:57:58,443 INFO    MainThread:6241 [wandb_run.py:_footer_sync_info():3333] logging synced files

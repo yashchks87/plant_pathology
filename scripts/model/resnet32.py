@@ -87,6 +87,12 @@ class ResNet(nn.Module):
     x = x.view(x.size(0), -1)
     x = self.fc(x)
     return x
+  
+  def get_predictions(self, x):
+    self.eval()
+    with torch.no_grad():
+      x = self.forward(x)
+      return x
 
 def get_model(num_classes = 12):
     model = ResNet(ResidualBlock, [3, 4, 6, 3], num_classes = num_classes)

@@ -1,0 +1,43 @@
+2023-12-28 20:22:36,093 INFO    StreamThr :100992 [internal.py:wandb_internal():88] W&B internal server running at pid: 100992, started at: 2023-12-28 20:22:36.092560
+2023-12-28 20:22:36,095 DEBUG   HandlerThread:100992 [handler.py:handle_request():138] handle_request: status
+2023-12-28 20:22:36,096 DEBUG   SenderThread:100992 [sender.py:send_request():317] send_request: status
+2023-12-28 20:22:36,098 INFO    WriterThread:100992 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231228_202232-1zmdj7b4/run-1zmdj7b4.wandb
+2023-12-28 20:22:36,098 DEBUG   SenderThread:100992 [sender.py:send():303] send: header
+2023-12-28 20:22:36,099 DEBUG   SenderThread:100992 [sender.py:send():303] send: run
+2023-12-28 20:22:36,311 DEBUG   HandlerThread:100992 [handler.py:handle_request():138] handle_request: check_version
+2023-12-28 20:22:36,312 INFO    SenderThread:100992 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231228_202232-1zmdj7b4/files
+2023-12-28 20:22:36,312 INFO    SenderThread:100992 [sender.py:_start_run_threads():928] run started: 1zmdj7b4 with start time 1703794955.100213
+2023-12-28 20:22:36,312 DEBUG   SenderThread:100992 [sender.py:send():303] send: summary
+2023-12-28 20:22:36,312 INFO    SenderThread:100992 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-28 20:22:36,312 DEBUG   SenderThread:100992 [sender.py:send_request():317] send_request: check_version
+2023-12-28 20:22:36,371 DEBUG   HandlerThread:100992 [handler.py:handle_request():138] handle_request: run_start
+2023-12-28 20:22:36,372 DEBUG   HandlerThread:100992 [meta.py:__init__():34] meta init
+2023-12-28 20:22:36,372 DEBUG   HandlerThread:100992 [meta.py:__init__():49] meta init done
+2023-12-28 20:22:36,372 DEBUG   HandlerThread:100992 [meta.py:probe():215] probe
+2023-12-28 20:22:36,373 DEBUG   HandlerThread:100992 [meta.py:_setup_git():205] setup git
+2023-12-28 20:22:36,393 DEBUG   HandlerThread:100992 [meta.py:_setup_git():212] setup git done
+2023-12-28 20:22:36,393 DEBUG   HandlerThread:100992 [meta.py:_save_pip():53] save pip
+2023-12-28 20:22:36,394 DEBUG   HandlerThread:100992 [meta.py:_save_pip():67] save pip done
+2023-12-28 20:22:36,394 DEBUG   HandlerThread:100992 [meta.py:probe():253] probe done
+2023-12-28 20:22:36,396 DEBUG   SenderThread:100992 [sender.py:send():303] send: files
+2023-12-28 20:22:36,396 INFO    SenderThread:100992 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-12-28 20:22:36,410 DEBUG   HandlerThread:100992 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-28 20:22:36,410 DEBUG   SenderThread:100992 [sender.py:send_request():317] send_request: stop_status
+2023-12-28 20:22:36,569 DEBUG   SenderThread:100992 [sender.py:send():303] send: telemetry
+2023-12-28 20:22:36,690 INFO    Thread-35 :100992 [upload_job.py:push():143] Uploaded file /tmp/tmpxo76a8hwwandb/20bp0w69-wandb-metadata.json
+2023-12-28 20:22:37,314 INFO    Thread-31 :100992 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231228_202232-1zmdj7b4/files/wandb-summary.json
+2023-12-28 20:22:37,314 INFO    Thread-31 :100992 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231228_202232-1zmdj7b4/files/wandb-metadata.json
+2023-12-28 20:22:37,314 INFO    Thread-31 :100992 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231228_202232-1zmdj7b4/files/requirements.txt
+2023-12-28 20:22:51,572 DEBUG   HandlerThread:100992 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-28 20:22:51,572 DEBUG   SenderThread:100992 [sender.py:send_request():317] send_request: stop_status
+2023-12-28 20:23:04,622 DEBUG   SenderThread:100992 [sender.py:send():303] send: stats
+2023-12-28 20:23:06,648 DEBUG   HandlerThread:100992 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-28 20:23:06,707 DEBUG   SenderThread:100992 [sender.py:send_request():317] send_request: stop_status
+2023-12-28 20:23:07,325 INFO    Thread-31 :100992 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20231228_202232-1zmdj7b4/files/config.yaml
+2023-12-28 20:23:21,792 DEBUG   HandlerThread:100992 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-28 20:23:21,792 DEBUG   SenderThread:100992 [sender.py:send_request():317] send_request: stop_status
+2023-12-28 20:23:34,847 DEBUG   SenderThread:100992 [sender.py:send():303] send: stats
+2023-12-28 20:23:36,943 DEBUG   HandlerThread:100992 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-28 20:23:36,944 DEBUG   SenderThread:100992 [sender.py:send_request():317] send_request: stop_status
+2023-12-28 20:23:52,076 DEBUG   HandlerThread:100992 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-28 20:23:52,076 DEBUG   SenderThread:100992 [sender.py:send_request():317] send_request: stop_status
