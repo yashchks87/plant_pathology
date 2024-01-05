@@ -57,10 +57,10 @@ def train(model, train_loader, val_loader, epochs=10, wandb_dict=None, class_wei
                     with torch.set_grad_enabled(phase == 'train'):
                         outputs = model(img)
                         if phase == 'train':
-                            loss = loss_fn(outputs, label, class_weights= class_weights)
+                            loss = loss_fn(outputs[0], outputs[1], outputs[2], label, class_weights= class_weights)
                         else:
-                            loss = loss_fn(outputs, label)
-                        c_m, p, r = generate_metrics(outputs, label, 12)
+                            loss = loss_fn(outputs, None, None, label)
+                        c_m, p, r = generate_metrics(outputs[0], label, 12)
                         if phase == 'train':
                             loss.backward()
                             optimizer.step()
