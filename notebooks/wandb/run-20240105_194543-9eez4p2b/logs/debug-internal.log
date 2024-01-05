@@ -1,0 +1,143 @@
+2024-01-05 19:45:43,780 INFO    StreamThr :167556 [internal.py:wandb_internal():86] W&B internal server running at pid: 167556, started at: 2024-01-05 19:45:43.780097
+2024-01-05 19:45:43,782 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status
+2024-01-05 19:45:43,787 INFO    WriterThread:167556 [datastore.py:open_for_write():85] open: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/run-9eez4p2b.wandb
+2024-01-05 19:45:43,788 DEBUG   SenderThread:167556 [sender.py:send():382] send: header
+2024-01-05 19:45:43,795 DEBUG   SenderThread:167556 [sender.py:send():382] send: run
+2024-01-05 19:45:44,014 INFO    SenderThread:167556 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files
+2024-01-05 19:45:44,014 INFO    SenderThread:167556 [sender.py:_start_run_threads():1136] run started: 9eez4p2b with start time 1704483943.779527
+2024-01-05 19:45:44,024 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: check_version
+2024-01-05 19:45:44,025 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: check_version
+2024-01-05 19:45:44,129 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: run_start
+2024-01-05 19:45:44,139 DEBUG   HandlerThread:167556 [system_info.py:__init__():32] System info init
+2024-01-05 19:45:44,139 DEBUG   HandlerThread:167556 [system_info.py:__init__():47] System info init done
+2024-01-05 19:45:44,139 INFO    HandlerThread:167556 [system_monitor.py:start():194] Starting system monitor
+2024-01-05 19:45:44,139 INFO    SystemMonitor:167556 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-05 19:45:44,140 INFO    HandlerThread:167556 [system_monitor.py:probe():214] Collecting system info
+2024-01-05 19:45:44,141 INFO    SystemMonitor:167556 [interfaces.py:start():190] Started cpu monitoring
+2024-01-05 19:45:44,142 INFO    SystemMonitor:167556 [interfaces.py:start():190] Started disk monitoring
+2024-01-05 19:45:44,143 INFO    SystemMonitor:167556 [interfaces.py:start():190] Started gpu monitoring
+2024-01-05 19:45:44,144 INFO    SystemMonitor:167556 [interfaces.py:start():190] Started memory monitoring
+2024-01-05 19:45:44,146 INFO    SystemMonitor:167556 [interfaces.py:start():190] Started network monitoring
+2024-01-05 19:45:44,152 DEBUG   HandlerThread:167556 [system_info.py:probe():196] Probing system
+2024-01-05 19:45:44,154 DEBUG   HandlerThread:167556 [system_info.py:_probe_git():181] Probing git
+2024-01-05 19:45:44,160 DEBUG   HandlerThread:167556 [system_info.py:_probe_git():189] Probing git done
+2024-01-05 19:45:44,160 DEBUG   HandlerThread:167556 [system_info.py:probe():244] Probing system done
+2024-01-05 19:45:44,160 DEBUG   HandlerThread:167556 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-37-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-01-05T19:45:44.152310', 'startedAt': '2024-01-05T19:45:43.774554', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/yashchks87/plant_pathology.git', 'commit': 'e7ca672c0321a4e059c320454bd1c72cda725cf4'}, 'email': None, 'root': '/home/ubuntu/plant_pathology', 'host': '129-213-82-104', 'username': 'ubuntu', 'executable': '/usr/bin/python3', 'cpu_count': 30, 'cpu_count_logical': 30, 'cpu_freq': {'current': 2449.9980000000005, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 496.0301856994629, 'used': 31.833148956298828}}, 'gpu': 'NVIDIA A100-SXM4-40GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}], 'memory': {'total': 196.56491088867188}}
+2024-01-05 19:45:44,160 INFO    HandlerThread:167556 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-05 19:45:44,160 INFO    HandlerThread:167556 [system_monitor.py:probe():227] Publishing system info
+2024-01-05 19:45:44,160 DEBUG   HandlerThread:167556 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-05 19:45:44,161 DEBUG   HandlerThread:167556 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-05 19:45:44,162 INFO    HandlerThread:167556 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-05 19:45:44,166 DEBUG   SenderThread:167556 [sender.py:send():382] send: files
+2024-01-05 19:45:44,167 INFO    SenderThread:167556 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-05 19:45:44,178 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 19:45:44,178 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 19:45:44,180 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 19:45:44,384 DEBUG   SenderThread:167556 [sender.py:send():382] send: telemetry
+2024-01-05 19:45:44,454 INFO    wandb-upload_0:167556 [upload_job.py:push():131] Uploaded file /tmp/tmp_lbycgpuwandb/i0e0f2am-wandb-metadata.json
+2024-01-05 19:45:45,016 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/requirements.txt
+2024-01-05 19:45:45,017 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/wandb-metadata.json
+2024-01-05 19:45:45,017 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:45:47,015 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:45:48,879 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:45:49,016 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:45:51,017 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:45:53,017 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:45:53,933 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:45:55,018 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:45:57,018 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:45:58,944 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:45:59,019 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:45:59,178 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 19:45:59,178 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 19:45:59,180 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 19:46:01,020 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:03,020 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:03,576 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-05 19:46:03,581 DEBUG   SenderThread:167556 [sender.py:send():382] send: history
+2024-01-05 19:46:03,581 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: summary_record
+2024-01-05 19:46:03,582 INFO    SenderThread:167556 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-05 19:46:04,021 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/wandb-summary.json
+2024-01-05 19:46:04,919 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:46:05,021 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:07,022 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:09,022 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:09,954 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:46:11,023 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:13,024 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:14,179 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 19:46:14,180 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 19:46:14,180 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 19:46:14,993 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:46:15,024 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:16,024 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/config.yaml
+2024-01-05 19:46:17,025 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:19,026 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:20,214 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:46:21,026 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:22,361 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-05 19:46:22,363 DEBUG   SenderThread:167556 [sender.py:send():382] send: history
+2024-01-05 19:46:22,363 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: summary_record
+2024-01-05 19:46:22,364 INFO    SenderThread:167556 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-05 19:46:23,027 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/wandb-summary.json
+2024-01-05 19:46:23,027 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:25,027 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:25,377 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:46:27,028 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:29,030 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:29,185 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 19:46:29,186 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 19:46:29,186 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 19:46:30,451 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:46:31,031 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:33,031 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:35,032 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:35,461 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:46:37,033 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:39,033 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:40,751 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:46:41,034 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:41,192 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-05 19:46:41,193 DEBUG   SenderThread:167556 [sender.py:send():382] send: history
+2024-01-05 19:46:41,194 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: summary_record
+2024-01-05 19:46:41,195 INFO    SenderThread:167556 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-05 19:46:42,034 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/wandb-summary.json
+2024-01-05 19:46:43,035 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:44,146 DEBUG   SystemMonitor:167556 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-05 19:46:44,147 DEBUG   SenderThread:167556 [sender.py:send():382] send: stats
+2024-01-05 19:46:44,231 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 19:46:44,231 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 19:46:44,278 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 19:46:45,035 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:45,768 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:46:46,008 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: pause
+2024-01-05 19:46:46,008 INFO    HandlerThread:167556 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-01-05 19:46:46,008 INFO    HandlerThread:167556 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-05 19:46:46,009 INFO    HandlerThread:167556 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-05 19:46:46,009 INFO    HandlerThread:167556 [interfaces.py:finish():202] Joined disk monitor
+2024-01-05 19:46:46,009 DEBUG   SystemMonitor:167556 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-05 19:46:46,010 DEBUG   SystemMonitor:167556 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-05 19:46:46,074 INFO    HandlerThread:167556 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-05 19:46:46,074 INFO    HandlerThread:167556 [interfaces.py:finish():202] Joined memory monitor
+2024-01-05 19:46:46,074 INFO    HandlerThread:167556 [interfaces.py:finish():202] Joined network monitor
+2024-01-05 19:46:46,075 DEBUG   SenderThread:167556 [sender.py:send():382] send: stats
+2024-01-05 19:46:47,036 INFO    Thread-12 :167556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_194543-9eez4p2b/files/output.log
+2024-01-05 19:46:51,076 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:46:56,077 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:46:59,229 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 19:46:59,230 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 19:46:59,230 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 19:47:01,272 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:47:06,273 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:47:11,274 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:47:14,230 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 19:47:14,230 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 19:47:14,230 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 19:47:16,312 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:47:21,313 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:47:26,313 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:47:29,230 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 19:47:29,230 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 19:47:29,230 DEBUG   SenderThread:167556 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 19:47:31,373 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 19:47:36,374 DEBUG   HandlerThread:167556 [handler.py:handle_request():146] handle_request: status_report

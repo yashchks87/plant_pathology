@@ -16,33 +16,32 @@ class PlantDataset(Dataset):
         self.labels = df['encoded_labels'].values.tolist()
         self.img_size = img_size
         self.augment = augment
-        # self.class_list = class_list
         self.norm = torchvision.transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])    
         if augment:
             self.horizontal_flip = torchvision.transforms.RandomHorizontalFlip(p=0.5)
             self.random_rotation = torchvision.transforms.RandomRotation(degrees=45)
-            self.jitter = torchvision.transforms.ColorJitter(brightness=0.5, contrast=0.5)
+            # self.jitter = torchvision.transforms.ColorJitter(brightness=0.5, contrast=0.5)
     
     def __len__(self):
         return len(self.df)
     
     def __getitem__(self, idx):
-        img = torchvision.io.read_file(self.paths[idx])
+        # img = torchvision.io.read_file(self.paths[idx])
+        img = torchvision.io.read_image(self.paths[idx])
         label = torch.Tensor([self.labels[idx]]).long()
-        img = torchvision.io.decode_jpeg(img)
+        # img = torchvision.io.decode_jpeg(img)
         # if self.augment and (self.class_list is not None) and (float(self.labels[idx]) in self.class_list):
         if self.augment:
             img = self.horizontal_flip(img)
             img = self.random_rotation(img)
-            img = self.jitter(img)
-        img = torchvision.transforms.functional.resize(img, (self.img_size[0], self.img_size[1])) # (C, H, W)
+            # img = self.jitter(img)
+        if self.img_size != 224:
+            img = torchvision.transforms.functional.resize(img, (self.img_size[0], self.img_size[1])) # (C, H, W)
         img = img / 255.0
         img = img.float()
         img = self.norm(img)
         return img, label
 
-    def info(self):
-        print('From PlantAugDataset')
     
 def direct_dataloader():
     pass
@@ -56,12 +55,8 @@ class GetLoaders():
         self.img_size = img_size
         self.num_workers = None
     
-    def create_sets(self, class_lists = [0, 2, 5, 7, 8, 10, 11], train_augment = True, val_augment = False, test_augment = False):
+    def create_sets(self, train_augment = True, val_augment = False, test_augment = False):
         self.train_augment, self.val_augment, self.test_augment = train_augment, val_augment, test_augment
-        # if self.aug:
-        #     self.train_set = PlantAugDataset(self.train, self.img_size, train_augment)
-        #     self.val_set = PlantAugDataset(self.val, self.img_size, val_augment, augment=False)
-        # else:
         self.train_set = PlantDataset(self.train, self.img_size, train_augment)
         self.val_set = PlantDataset(self.val, self.img_size, val_augment)
         self.test_set = PlantDataset(self.test, self.img_size, test_augment)

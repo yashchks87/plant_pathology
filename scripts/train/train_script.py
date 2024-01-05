@@ -38,7 +38,6 @@ def train(model, train_loader, val_loader, epochs=10, wandb_dict=None, class_wei
         model = nn.DataParallel(model)
     model = model.to(device)
     optimizer = optim.Adam(model.parameters(), lr=0.001)
-    # scheduler = StepLR(optimizer, step_size=4, gamma=0.1)
     for epoch in range(epochs):
         train_loss, val_loss = 0.0, 0.0
         train_prec, val_prec = torch.zeros(1, 12), torch.zeros(1, 12)
@@ -57,17 +56,17 @@ def train(model, train_loader, val_loader, epochs=10, wandb_dict=None, class_wei
                     with torch.set_grad_enabled(phase == 'train'):
                         outputs = model(img)
                         if phase == 'train':
-                            loss = loss_fn(outputs[0], outputs[1], outputs[2], label, class_weights= class_weights)
+                            loss, loss_val = loss_fn(outputs[0], outputs[1], outputs[2], label, class_weights= class_weights)
                         else:
-                            loss = loss_fn(outputs, None, None, label)
+                            loss_val = loss_fn(outputs[0], None, None, label)
                         c_m, p, r = generate_metrics(outputs[0], label, 12)
                         if phase == 'train':
                             loss.backward()
                             optimizer.step()
-                    running_loss += loss.item()
+                    running_loss += loss_val.item()
                     running_prec += p
                     running_rec += r
-                    tepoch.set_postfix(loss = loss.item())
+                    tepoch.set_postfix(loss = loss_val.item())
             if phase == 'train':
                 train_prec = train_prec[0]
                 train_rec = train_rec[0]

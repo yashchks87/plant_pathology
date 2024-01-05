@@ -1,0 +1,84 @@
+2024-01-05 18:52:34,178 INFO    StreamThr :5006 [internal.py:wandb_internal():86] W&B internal server running at pid: 5006, started at: 2024-01-05 18:52:34.177402
+2024-01-05 18:52:34,180 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status
+2024-01-05 18:52:34,185 INFO    WriterThread:5006 [datastore.py:open_for_write():85] open: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_185234-tv7xk9u6/run-tv7xk9u6.wandb
+2024-01-05 18:52:34,186 DEBUG   SenderThread:5006 [sender.py:send():382] send: header
+2024-01-05 18:52:34,192 DEBUG   SenderThread:5006 [sender.py:send():382] send: run
+2024-01-05 18:52:34,491 INFO    SenderThread:5006 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_185234-tv7xk9u6/files
+2024-01-05 18:52:34,491 INFO    SenderThread:5006 [sender.py:_start_run_threads():1136] run started: tv7xk9u6 with start time 1704480754.176858
+2024-01-05 18:52:34,499 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: check_version
+2024-01-05 18:52:34,500 DEBUG   SenderThread:5006 [sender.py:send_request():409] send_request: check_version
+2024-01-05 18:52:34,604 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: run_start
+2024-01-05 18:52:34,614 DEBUG   HandlerThread:5006 [system_info.py:__init__():32] System info init
+2024-01-05 18:52:34,614 DEBUG   HandlerThread:5006 [system_info.py:__init__():47] System info init done
+2024-01-05 18:52:34,614 INFO    HandlerThread:5006 [system_monitor.py:start():194] Starting system monitor
+2024-01-05 18:52:34,614 INFO    SystemMonitor:5006 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-05 18:52:34,615 INFO    HandlerThread:5006 [system_monitor.py:probe():214] Collecting system info
+2024-01-05 18:52:34,615 INFO    SystemMonitor:5006 [interfaces.py:start():190] Started cpu monitoring
+2024-01-05 18:52:34,616 INFO    SystemMonitor:5006 [interfaces.py:start():190] Started disk monitoring
+2024-01-05 18:52:34,617 INFO    SystemMonitor:5006 [interfaces.py:start():190] Started gpu monitoring
+2024-01-05 18:52:34,618 INFO    SystemMonitor:5006 [interfaces.py:start():190] Started memory monitoring
+2024-01-05 18:52:34,618 INFO    SystemMonitor:5006 [interfaces.py:start():190] Started network monitoring
+2024-01-05 18:52:34,632 DEBUG   HandlerThread:5006 [system_info.py:probe():196] Probing system
+2024-01-05 18:52:34,634 DEBUG   HandlerThread:5006 [system_info.py:_probe_git():181] Probing git
+2024-01-05 18:52:34,640 DEBUG   HandlerThread:5006 [system_info.py:_probe_git():189] Probing git done
+2024-01-05 18:52:34,640 DEBUG   HandlerThread:5006 [system_info.py:probe():244] Probing system done
+2024-01-05 18:52:34,640 DEBUG   HandlerThread:5006 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-37-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-01-05T18:52:34.632169', 'startedAt': '2024-01-05T18:52:34.172414', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/yashchks87/plant_pathology.git', 'commit': 'e7ca672c0321a4e059c320454bd1c72cda725cf4'}, 'email': None, 'root': '/home/ubuntu/plant_pathology', 'host': '129-213-82-104', 'username': 'ubuntu', 'executable': '/usr/bin/python3', 'cpu_count': 30, 'cpu_count_logical': 30, 'cpu_freq': {'current': 2449.9980000000005, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}, {'current': 2449.998, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 496.0301856994629, 'used': 25.43535614013672}}, 'gpu': 'NVIDIA A100-SXM4-40GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}], 'memory': {'total': 196.56491088867188}}
+2024-01-05 18:52:34,640 INFO    HandlerThread:5006 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-05 18:52:34,640 INFO    HandlerThread:5006 [system_monitor.py:probe():227] Publishing system info
+2024-01-05 18:52:34,640 DEBUG   HandlerThread:5006 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-05 18:52:34,640 DEBUG   HandlerThread:5006 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-05 18:52:34,641 INFO    HandlerThread:5006 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-05 18:52:34,648 DEBUG   SenderThread:5006 [sender.py:send():382] send: files
+2024-01-05 18:52:34,648 INFO    SenderThread:5006 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-05 18:52:34,658 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 18:52:34,658 DEBUG   SenderThread:5006 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 18:52:34,660 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 18:52:34,779 DEBUG   SenderThread:5006 [sender.py:send():382] send: telemetry
+2024-01-05 18:52:35,038 INFO    wandb-upload_0:5006 [upload_job.py:push():131] Uploaded file /tmp/tmpchydvbw2wandb/blszj8or-wandb-metadata.json
+2024-01-05 18:52:35,493 INFO    Thread-12 :5006 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_185234-tv7xk9u6/files/requirements.txt
+2024-01-05 18:52:35,493 INFO    Thread-12 :5006 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_185234-tv7xk9u6/files/output.log
+2024-01-05 18:52:35,493 INFO    Thread-12 :5006 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_185234-tv7xk9u6/files/wandb-metadata.json
+2024-01-05 18:52:37,492 INFO    Thread-12 :5006 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_185234-tv7xk9u6/files/output.log
+2024-01-05 18:52:39,473 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:52:39,821 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: pause
+2024-01-05 18:52:39,821 INFO    HandlerThread:5006 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-01-05 18:52:39,821 INFO    HandlerThread:5006 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-05 18:52:39,822 DEBUG   SystemMonitor:5006 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-05 18:52:39,822 DEBUG   SystemMonitor:5006 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-05 18:52:39,822 DEBUG   SystemMonitor:5006 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-05 18:52:39,822 INFO    HandlerThread:5006 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-05 18:52:39,822 INFO    HandlerThread:5006 [interfaces.py:finish():202] Joined disk monitor
+2024-01-05 18:52:39,884 INFO    HandlerThread:5006 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-05 18:52:39,885 INFO    HandlerThread:5006 [interfaces.py:finish():202] Joined memory monitor
+2024-01-05 18:52:39,885 INFO    HandlerThread:5006 [interfaces.py:finish():202] Joined network monitor
+2024-01-05 18:52:39,885 DEBUG   SenderThread:5006 [sender.py:send():382] send: stats
+2024-01-05 18:52:41,493 INFO    Thread-12 :5006 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_185234-tv7xk9u6/files/output.log
+2024-01-05 18:52:44,886 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:52:49,658 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 18:52:49,658 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 18:52:49,659 DEBUG   SenderThread:5006 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 18:52:50,814 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:52:55,815 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:53:00,815 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:53:04,658 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 18:53:04,658 DEBUG   SenderThread:5006 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 18:53:04,699 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 18:53:06,770 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:53:07,500 INFO    Thread-12 :5006 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/plant_pathology/notebooks/wandb/run-20240105_185234-tv7xk9u6/files/config.yaml
+2024-01-05 18:53:11,859 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:53:16,859 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:53:19,658 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 18:53:19,659 DEBUG   SenderThread:5006 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 18:53:19,699 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 18:53:22,802 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:53:27,802 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:53:32,803 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:53:34,658 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 18:53:34,659 DEBUG   SenderThread:5006 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 18:53:34,699 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 18:53:38,747 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:53:43,748 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:53:48,748 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:53:49,658 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 18:53:49,659 DEBUG   SenderThread:5006 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 18:53:49,699 DEBUG   HandlerThread:5006 [handler.py:handle_request():146] handle_request: internal_messages

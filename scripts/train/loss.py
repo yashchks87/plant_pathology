@@ -17,4 +17,6 @@ def loss_fn(inputs, inputs_aux_1, inputs_aux_2, targets, class_weights=None):
     if inputs_aux_1 != None:
         loss_aux_1 = cross_entropy_aux_1(inputs_aux_1, targets)
         loss_aux_2 = cross_entropy_aux_2(inputs_aux_2, targets)
-    return loss + 0.3 * loss_aux_1 + 0.3 * loss_aux_2
+    if inputs_aux_1 != None:
+        return loss + 0.3 * loss_aux_1 + 0.3 * loss_aux_2, loss
+    return loss
