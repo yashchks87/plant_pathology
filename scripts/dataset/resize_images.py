@@ -51,4 +51,4 @@ if __name__ == '__main__':
     resize_images(args.folder_path, args.new_path, args.cpu_count, args.store_pickle, args.img_size)
 
 
-# python resize_images.py --folder_path ../../../plant_path_data/train_images/ --new_path ../../../plant_path_data/resized_train_224/ --cpu_count 28 --store_pickle False --img_size 224
+# python resize_images.py --folder_path ../../../plant_path_data/train_images/ --new_path ../../../plant_path_data/train_images_224/ --cpu_count 28 --store_pickle False --img_size 224
