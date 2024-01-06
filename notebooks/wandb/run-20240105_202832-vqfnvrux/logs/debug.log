@@ -1,0 +1,62 @@
+2024-01-05 20:28:32,100 INFO    MainThread:4167 [wandb_setup.py:_flush():68] Configure stats pid to 4167
+2024-01-05 20:28:32,101 INFO    MainThread:4167 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/.config/wandb/settings
+2024-01-05 20:28:32,101 INFO    MainThread:4167 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/Documents/plant_pathology/notebooks/wandb/settings
+2024-01-05 20:28:32,101 INFO    MainThread:4167 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-01-05 20:28:32,101 INFO    MainThread:4167 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-05 20:28:32,101 INFO    MainThread:4167 [wandb_init.py:_log_setup():476] Logging user logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240105_202832-vqfnvrux/logs/debug.log
+2024-01-05 20:28:32,101 INFO    MainThread:4167 [wandb_init.py:_log_setup():477] Logging internal logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240105_202832-vqfnvrux/logs/debug-internal.log
+2024-01-05 20:28:32,101 INFO    MainThread:4167 [wandb_init.py:init():516] calling init triggers
+2024-01-05 20:28:32,101 INFO    MainThread:4167 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'model_name': 'incep_v1', 'dataset_name': 'plant_pathology', 'epochs': 50, 'batch_size': 512, 'num_workers': 10, 'learning_rate': 0.001, 'optimizer': 'Adam', 'weights_path': '../../weights/incep_v1_hflip_rrotate_v1/', 'normalize': True}
+2024-01-05 20:28:32,101 INFO    MainThread:4167 [wandb_init.py:init():569] starting backend
+2024-01-05 20:28:32,101 INFO    MainThread:4167 [wandb_init.py:init():573] setting up manager
+2024-01-05 20:28:32,107 ERROR   MainThread:4167 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 574, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/wandb_manager.py", line 170, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2024-01-05 20:28:48,116 INFO    MainThread:4167 [wandb_setup.py:_flush():68] Configure stats pid to 4167
+2024-01-05 20:28:48,116 INFO    MainThread:4167 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/.config/wandb/settings
+2024-01-05 20:28:48,117 INFO    MainThread:4167 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/Documents/plant_pathology/notebooks/wandb/settings
+2024-01-05 20:28:48,117 INFO    MainThread:4167 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-01-05 20:28:48,117 INFO    MainThread:4167 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-05 20:28:48,117 INFO    MainThread:4167 [wandb_init.py:_log_setup():476] Logging user logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240105_202848-1g2r2ukv/logs/debug.log
+2024-01-05 20:28:48,117 INFO    MainThread:4167 [wandb_init.py:_log_setup():477] Logging internal logs to /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240105_202848-1g2r2ukv/logs/debug-internal.log
+2024-01-05 20:28:48,117 INFO    MainThread:4167 [wandb_init.py:init():516] calling init triggers
+2024-01-05 20:28:48,117 INFO    MainThread:4167 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'model_name': 'incep_v1', 'dataset_name': 'plant_pathology', 'epochs': 50, 'batch_size': 512, 'num_workers': 10, 'learning_rate': 0.001, 'optimizer': 'Adam', 'weights_path': '../../weights/incep_v1_hflip_rrotate_v1/', 'normalize': True}
+2024-01-05 20:28:48,117 INFO    MainThread:4167 [wandb_init.py:init():569] starting backend
+2024-01-05 20:28:48,117 INFO    MainThread:4167 [wandb_init.py:init():573] setting up manager
+2024-01-05 20:28:48,123 ERROR   MainThread:4167 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 574, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/wandb_manager.py", line 170, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe

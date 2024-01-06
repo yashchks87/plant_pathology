@@ -559,3 +559,11 @@
 2024-01-01 22:45:53,074 DEBUG   SenderThread:214741 [sender.py:send_request():317] send_request: stop_status
 2024-01-01 22:46:08,174 DEBUG   HandlerThread:214741 [handler.py:handle_request():138] handle_request: stop_status
 2024-01-01 22:46:08,175 DEBUG   SenderThread:214741 [sender.py:send_request():317] send_request: stop_status
+2024-01-01 22:46:21,438 DEBUG   SenderThread:214741 [sender.py:send():303] send: stats
+2024-01-01 22:46:23,322 DEBUG   HandlerThread:214741 [handler.py:handle_request():138] handle_request: stop_status
+2024-01-01 22:46:23,322 DEBUG   SenderThread:214741 [sender.py:send_request():317] send_request: stop_status
+2024-01-01 22:46:38,456 DEBUG   HandlerThread:214741 [handler.py:handle_request():138] handle_request: stop_status
+2024-01-01 22:46:38,456 DEBUG   SenderThread:214741 [sender.py:send_request():317] send_request: stop_status
+2024-01-01 22:46:51,647 DEBUG   SenderThread:214741 [sender.py:send():303] send: stats
+2024-01-01 22:46:53,582 DEBUG   HandlerThread:214741 [handler.py:handle_request():138] handle_request: stop_status
+2024-01-01 22:46:53,582 DEBUG   SenderThread:214741 [sender.py:send_request():317] send_request: stop_status

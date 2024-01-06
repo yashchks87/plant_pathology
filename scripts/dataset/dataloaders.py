@@ -20,7 +20,7 @@ class PlantDataset(Dataset):
         if augment:
             self.horizontal_flip = torchvision.transforms.RandomHorizontalFlip(p=0.5)
             self.random_rotation = torchvision.transforms.RandomRotation(degrees=45)
-            # self.jitter = torchvision.transforms.ColorJitter(brightness=0.5, contrast=0.5)
+            self.jitter = torchvision.transforms.ColorJitter(brightness=0.5, contrast=0.5, saturation=0.3, hue=0.3)
     
     def __len__(self):
         return len(self.df)
@@ -34,7 +34,7 @@ class PlantDataset(Dataset):
         if self.augment:
             img = self.horizontal_flip(img)
             img = self.random_rotation(img)
-            # img = self.jitter(img)
+            img = self.jitter(img)
         if self.img_size != 224:
             img = torchvision.transforms.functional.resize(img, (self.img_size[0], self.img_size[1])) # (C, H, W)
         img = img / 255.0
