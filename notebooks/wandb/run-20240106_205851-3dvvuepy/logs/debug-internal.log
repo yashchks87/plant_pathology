@@ -1,0 +1,41 @@
+2024-01-06 20:58:51,490 INFO    StreamThr :38771 [internal.py:wandb_internal():88] W&B internal server running at pid: 38771, started at: 2024-01-06 20:58:51.490037
+2024-01-06 20:58:51,493 DEBUG   HandlerThread:38771 [handler.py:handle_request():138] handle_request: status
+2024-01-06 20:58:51,493 DEBUG   SenderThread:38771 [sender.py:send_request():317] send_request: status
+2024-01-06 20:58:51,494 DEBUG   SenderThread:38771 [sender.py:send():303] send: header
+2024-01-06 20:58:51,494 INFO    WriterThread:38771 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240106_205851-3dvvuepy/run-3dvvuepy.wandb
+2024-01-06 20:58:51,516 DEBUG   SenderThread:38771 [sender.py:send():303] send: run
+2024-01-06 20:58:51,683 DEBUG   HandlerThread:38771 [handler.py:handle_request():138] handle_request: check_version
+2024-01-06 20:58:51,684 INFO    SenderThread:38771 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240106_205851-3dvvuepy/files
+2024-01-06 20:58:51,685 INFO    SenderThread:38771 [sender.py:_start_run_threads():928] run started: 3dvvuepy with start time 1704574731.485695
+2024-01-06 20:58:51,685 DEBUG   SenderThread:38771 [sender.py:send():303] send: summary
+2024-01-06 20:58:51,685 INFO    SenderThread:38771 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-01-06 20:58:51,685 DEBUG   SenderThread:38771 [sender.py:send_request():317] send_request: check_version
+2024-01-06 20:58:51,785 DEBUG   HandlerThread:38771 [handler.py:handle_request():138] handle_request: run_start
+2024-01-06 20:58:51,792 DEBUG   HandlerThread:38771 [meta.py:__init__():34] meta init
+2024-01-06 20:58:51,792 DEBUG   HandlerThread:38771 [meta.py:__init__():49] meta init done
+2024-01-06 20:58:51,792 DEBUG   HandlerThread:38771 [meta.py:probe():215] probe
+2024-01-06 20:58:51,803 DEBUG   HandlerThread:38771 [meta.py:_setup_git():205] setup git
+2024-01-06 20:58:51,813 DEBUG   HandlerThread:38771 [meta.py:_setup_git():212] setup git done
+2024-01-06 20:58:51,814 DEBUG   HandlerThread:38771 [meta.py:_save_pip():53] save pip
+2024-01-06 20:58:51,814 DEBUG   HandlerThread:38771 [meta.py:_save_pip():67] save pip done
+2024-01-06 20:58:51,814 DEBUG   HandlerThread:38771 [meta.py:probe():253] probe done
+2024-01-06 20:58:52,011 DEBUG   SenderThread:38771 [sender.py:send():303] send: files
+2024-01-06 20:58:52,011 INFO    SenderThread:38771 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2024-01-06 20:58:52,020 DEBUG   HandlerThread:38771 [handler.py:handle_request():138] handle_request: stop_status
+2024-01-06 20:58:52,020 DEBUG   SenderThread:38771 [sender.py:send_request():317] send_request: stop_status
+2024-01-06 20:58:52,159 DEBUG   SenderThread:38771 [sender.py:send():303] send: telemetry
+2024-01-06 20:58:52,293 INFO    Thread-17 :38771 [upload_job.py:push():143] Uploaded file /tmp/tmpclxs2wkswandb/2816v6qa-wandb-metadata.json
+2024-01-06 20:58:52,686 INFO    Thread-13 :38771 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240106_205851-3dvvuepy/files/wandb-summary.json
+2024-01-06 20:58:52,686 INFO    Thread-13 :38771 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240106_205851-3dvvuepy/files/requirements.txt
+2024-01-06 20:58:52,686 INFO    Thread-13 :38771 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240106_205851-3dvvuepy/files/wandb-metadata.json
+2024-01-06 20:58:53,685 INFO    Thread-13 :38771 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240106_205851-3dvvuepy/files/output.log
+2024-01-06 20:58:55,686 INFO    Thread-13 :38771 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240106_205851-3dvvuepy/files/output.log
+2024-01-06 20:59:07,411 DEBUG   HandlerThread:38771 [handler.py:handle_request():138] handle_request: pause
+2024-01-06 20:59:07,412 INFO    HandlerThread:38771 [handler.py:handle_request_pause():696] stopping system metrics thread
+2024-01-06 20:59:07,434 DEBUG   SenderThread:38771 [sender.py:send():303] send: stats
+2024-01-06 20:59:08,182 DEBUG   HandlerThread:38771 [handler.py:handle_request():138] handle_request: stop_status
+2024-01-06 20:59:08,182 DEBUG   SenderThread:38771 [sender.py:send_request():317] send_request: stop_status
+2024-01-06 20:59:09,690 INFO    Thread-13 :38771 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240106_205851-3dvvuepy/files/output.log
+2024-01-06 20:59:22,695 INFO    Thread-13 :38771 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/plant_pathology/notebooks/wandb/run-20240106_205851-3dvvuepy/files/config.yaml
+2024-01-06 20:59:23,253 DEBUG   HandlerThread:38771 [handler.py:handle_request():138] handle_request: stop_status
+2024-01-06 20:59:23,253 DEBUG   SenderThread:38771 [sender.py:send_request():317] send_request: stop_status
